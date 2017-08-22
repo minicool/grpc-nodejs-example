@@ -1,0 +1,20 @@
+{
+  "name": "grpc-nodejs-example",
+  "version": "1.0.0",
+  "description": "grpc nodejs example",
+  "main": "index.js",
+  "repository": "https://github.com/minicool/grpc-nodejs-example.git",
+  "author": "minicool <minicool.software@gamil.com>",
+  "license": "MIT",
+
+  "engines" : {
+    "node" : ">=7.7.1" 
+  },
+  "scripts": {
+    "server": "node ./example/normal/server",
+    "client": "node ./example/normal/client"
+  },
+  "dependencies": {
+    "grpc": "^1.4.1"
+  }
+}

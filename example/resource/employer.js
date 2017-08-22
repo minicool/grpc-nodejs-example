@@ -1,0 +1,26 @@
+exports.employees = [
+    {
+        employerId:1,
+        age:26,
+        name:'jack',
+        picName:'1.jpeg'       
+    },
+    {
+        employerId:2,
+        age:23,
+        name:'wang',
+        picName:'2.jpeg'         
+    },
+    {
+        employerId:3,
+        age:22,
+        name:'chen',
+        picName:'3.jpeg'                  
+    },
+    {
+        employerId:4,
+        age:25,
+        name:'xu',
+        picName:'4.jpeg'               
+    }         
+];
