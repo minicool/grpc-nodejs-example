@@ -17,9 +17,9 @@ const Client_type = proto.employer.EmployerService;
 const client = new Client_type(`${host}:${port}`, grpc.credentials.createInsecure());
 
 //client add
-//implementation.getEmployerAll(client); 
-//implementation.getEmployerList(client);
+implementation.getEmployerAll(client); 
+implementation.getEmployerList(client);
 implementation.getEmployerMap(client);
-//implementation.getEmployer(client);
-//implementation.addEmployerImage(client);
-//implementation.getEmployerImage(client);
+implementation.getEmployer(client);
+implementation.addEmployerImage(client);
+implementation.getEmployerImage(client);

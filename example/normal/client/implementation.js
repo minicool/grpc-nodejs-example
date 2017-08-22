@@ -1,6 +1,6 @@
 const fs = require('fs');
 const grpc = require('grpc');
-const data = require('../resource/data');
+const data = require('../../resource/employer');
 
 module.exports = {
     getEmployer: function (client) {

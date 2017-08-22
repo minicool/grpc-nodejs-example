@@ -6,7 +6,7 @@ message Employer {
     uint32 employerId = 1;
     uint32 age = 2;    
     string name = 3;
-    string pic = 4;
+    string picName = 4;
 }
 
 message EmployerRequest{
@@ -67,7 +67,7 @@ message GetEmployerAllImageRequest{
 
 message GetEmployerAllImageResponse{
     string picName = 1;
-    bytes picData = 2;
+    bytes picData = 2;      
 }
 
 service EmployerService{

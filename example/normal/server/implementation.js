@@ -57,7 +57,7 @@ module.exports = {
         var employerMap;
         data.employees.forEach(function (employer) {
             console.log(employer);
-            employerMap[employer.name] = employer;
+ //           employerMap[employer.name] = employer;
         });
         callback(null, { employerMap: employerMap});
     },  
