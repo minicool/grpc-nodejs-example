@@ -70,7 +70,7 @@ module.exports = {
         md.add("funcation", "getEmployerImage");
 
         let fileName = undefined;
-        const call = client.getEmployerImage({employerId:3},md);
+        const call = client.getEmployerImage({employerId:2},md);
 
         let stream = undefined;
         call.on('data', function (data) {

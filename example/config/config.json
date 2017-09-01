@@ -1,10 +1,10 @@
 {
     "server_conf": {
       "host": "localhost",
-      "port": 30123
+      "port": 30333
     },
     "client_conf": {
       "host": "localhost",
-      "port": 30123
+      "port": 30333
     }
 }

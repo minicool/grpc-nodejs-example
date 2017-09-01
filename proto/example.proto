@@ -30,7 +30,7 @@ message EmployerMapRequest{
   
 }
 
-message EmployerMaptResponse{
+message EmployerMapResponse{
     map<string,Employer> employerMap = 1;
 }
 
@@ -73,7 +73,7 @@ message GetEmployerAllImageResponse{
 service EmployerService{
     rpc getEmployer(EmployerRequest) returns (EmployerResponse);
     rpc getEmployerList(EmployerListRequest) returns (EmployerListResponse);
-    rpc getEmployerMap(EmployerMapRequest) returns (EmployerListResponse);
+    rpc getEmployerMap(EmployerMapRequest) returns (EmployerMapResponse);
     rpc getEmployerAll(EmployerAllRequest) returns (stream EmployerAllResponse);
     rpc addEmployerImage(stream EmployerImageRequest)  returns (EmployerImageResponse);
     rpc getEmployerImage(GetEmployerImageRequest)  returns (stream GetEmployerImageResponse);
